@@ -1,0 +1,11 @@
+corbos\bugsafaricli\ui\ConsoleIO.class
+corbos\bugsafaricli\models\Bug.class
+corbos\bugsafaricli\data\Dao.class
+corbos\bugsafaricli\data\DataException.class
+corbos\bugsafaricli\ui\UserIO.class
+corbos\bugsafaricli\service\DuplicateLatinException.class
+corbos\bugsafaricli\App.class
+corbos\bugsafaricli\service\ValidationException.class
+corbos\bugsafaricli\ui\View.class
+corbos\bugsafaricli\data\BugDao.class
+corbos\bugsafaricli\service\BugServiceInterface.class
