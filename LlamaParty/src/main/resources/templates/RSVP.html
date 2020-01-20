@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP To My Party</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Coming To My Party!</h1>
+        <form method="POST">
+            <div class="form-group text-center row-6">
+                <input type="radio" name="confirmed" value="true">yes &emsp;&emsp;&emsp;
+                <input type="radio" name="confirmed" value="false">no
+            </div>
+            <div class="form-group text-center row-6">
+                <label for="guestName">Name:</label>
+                <input type="text" name="guestName">
+            </div>
+            <div class="form-group text-center">
+                <label for="llamas">Llamas</label>
+                <input name="llamas" type="number" min="0" value="0">
+            </div>
+            <div class="form-group text-center">
+                <button type="submit" class="btn btn-primary">RSVP</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
